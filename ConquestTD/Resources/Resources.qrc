@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/Resources">
+        <file>Cards/Charger.png</file>
+        <file>Cards/Discharge.png</file>
+        <file>Cards/Driller.png</file>
+        <file>Cards/Flame Tank.png</file>
+        <file>Cards/Infantry.png</file>
+        <file>Cards/Magnetank.png</file>
+        <file>Cards/Missile Factory.png</file>
+        <file>Cards/Mobile Artillery.png</file>
+        <file>Cards/Mobile Factory.png</file>
+        <file>Cards/OverCharge.png</file>
+        <file>Cards/Recall.png</file>
+        <file>Cards/Spinner.png</file>
+        <file>Cards/Springer.png</file>
+        <file>Cards/Tactical Bomber.png</file>
+        <file>Cards/Tesla Tower.png</file>
+    </qresource>
+</RCC>

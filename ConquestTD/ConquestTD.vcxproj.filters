@@ -1,0 +1,692 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{2e34fe52-2978-47de-8b2b-b367c54de884}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{522eca0d-a310-4904-8d6b-3c315e0eec3c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\MainWindow">
+      <UniqueIdentifier>{94c2e3fb-41ce-41c6-bd83-75f6be5bef8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StartPage">
+      <UniqueIdentifier>{0c91f2a4-758b-462f-8235-047361402632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MainWindow">
+      <UniqueIdentifier>{8742c310-4e7e-4a62-ac90-fcd7f32cd02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StartPage">
+      <UniqueIdentifier>{a541da93-a006-453d-8daf-9298b748b7a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller">
+      <UniqueIdentifier>{522204b1-ed14-42fb-8b18-3dcee6534270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controller">
+      <UniqueIdentifier>{396b7bd0-06dc-4740-a910-0473ed206e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameScene">
+      <UniqueIdentifier>{627b436f-bd57-42eb-8a7a-48efb56ee625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameScene">
+      <UniqueIdentifier>{253d877b-c213-4242-be89-d316d0940894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CardSelectionDialog">
+      <UniqueIdentifier>{e46b570b-01ae-4aee-a58c-f19c6a342b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CardSelectionDialog">
+      <UniqueIdentifier>{1d34825e-4c69-4dc5-81f6-b6c963e0bd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MainGame">
+      <UniqueIdentifier>{569692d3-50a2-4e28-ae7c-fd23b832ee6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MainGame">
+      <UniqueIdentifier>{c293e0e5-0235-4135-964a-33372767b34e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assests">
+      <UniqueIdentifier>{44e95040-2a5a-4eb6-bcf3-67e338bab57d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assests\Cards">
+      <UniqueIdentifier>{96c1dd2d-bc06-4168-a6f8-36170c2e3d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assests">
+      <UniqueIdentifier>{3c3f3080-4a02-4634-9f60-e2d7621931ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assests\Cards">
+      <UniqueIdentifier>{d9d79503-8d92-4517-9c04-7bd823d49ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assests\Entities">
+      <UniqueIdentifier>{a94e164b-6503-487c-afc1-d8161c3ad62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assests\Entities\Buildings">
+      <UniqueIdentifier>{62be6ca6-4bdc-40bd-bafb-4b3a1af3648c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assests\Entities\Units">
+      <UniqueIdentifier>{b49abedb-ce1a-4897-b092-be0b72f07b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assests\Entities">
+      <UniqueIdentifier>{fa0b5efe-245f-415e-9d14-9a8d35184b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assests\Entities\Buildings">
+      <UniqueIdentifier>{901489cd-607f-4f9c-9f9f-ce829252820f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assests\Entities\Units">
+      <UniqueIdentifier>{466201a5-0985-4a7a-ab77-c5cb71a1b4b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assests\Cards\Units">
+      <UniqueIdentifier>{22ed279b-e6c2-4d66-8a5f-83839db98c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assests\Cards\Buildings">
+      <UniqueIdentifier>{da593799-6feb-403c-994a-f16ae8fa835e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assests\Cards\Wild Cards">
+      <UniqueIdentifier>{4a37d590-1bed-4ce1-81c3-e64a2dcbb606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assests\Cards\Buildings">
+      <UniqueIdentifier>{94d38766-128a-4fa8-bcaa-efcfd6f07021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assests\Cards\Commands">
+      <UniqueIdentifier>{97b28a4b-1ac9-4568-9cf8-4941ffad2fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assests\Cards\Wild Cards">
+      <UniqueIdentifier>{9e7899fa-344a-4690-b58d-0035b9d12836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assests\Cards\Units">
+      <UniqueIdentifier>{c1a8b7ce-4785-4623-ba81-3ab4ab0e5ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assests\Cards\Commands">
+      <UniqueIdentifier>{93c934da-d9e3-4153-ba1b-fcb4c21cce59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Cards">
+      <UniqueIdentifier>{9b670dd0-30ce-4f8c-a100-9819fc49a039}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="src\MainWindow\mainwindow.h">
+      <Filter>Header Files\MainWindow</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\StartPage\StartPanel.h">
+      <Filter>Header Files\StartPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\Controller\Controller.h">
+      <Filter>Header Files\Controller</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\MainWindow\ServerDialog.h">
+      <Filter>Header Files\MainWindow</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\Controller\GameController.h">
+      <Filter>Header Files\Controller</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\MainWindow\MainScreen.h">
+      <Filter>Header Files\MainWindow</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\StartPage\StartPage.h">
+      <Filter>Header Files\StartPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\CardSelectionDialog\CardSelectionScene.h">
+      <Filter>Header Files\CardSelectionDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\CardSelectionDialog\CardSelectionDialog.h">
+      <Filter>Header Files\CardSelectionDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\MainGame\CountDownTimer.h">
+      <Filter>Header Files\MainGame</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\MainGame\MainGame.h">
+      <Filter>Header Files\MainGame</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\MainGame\GamePanel.h">
+      <Filter>Header Files\MainGame</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\MainGame\DeckScene.h">
+      <Filter>Header Files\MainGame</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\MainGame\CreditBar.h">
+      <Filter>Header Files\MainGame</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\Assests\Entities\Units\AbstractUnit.h">
+      <Filter>Header Files\Assests\Entities\Units</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\Assests\Entities\AbstractEntity.h">
+      <Filter>Header Files\Assests\Entities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\Assests\Cards\AbstractCard.h">
+      <Filter>Header Files\Assests\Cards</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\Controller\ResourceManager.h">
+      <Filter>Header Files\Controller</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\Resources.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\CardSelectionDialog\DeckPreviewScene.h">
+      <Filter>Header Files\CardSelectionDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\GameScene\GameScene.h">
+      <Filter>Header Files\GameScene</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainWindow\mainwindow.cpp">
+      <Filter>Source Files\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainWindow\ServerDialog.cpp">
+      <Filter>Source Files\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StartPage\StartPage.cpp">
+      <Filter>Source Files\StartPage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StartPage\StartPanel.cpp">
+      <Filter>Source Files\StartPage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Controller\Controller.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Controller.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Controller.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ServerDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ServerDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Controller\GameController.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GameController.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GameController.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainWindow\MainScreen.cpp">
+      <Filter>Source Files\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainScreen.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainScreen.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_StartPanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_StartPanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_StartPage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_StartPage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CardSelectionScene.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CardSelectionScene.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CardSelectionDialog\CardSelectionDialog.cpp">
+      <Filter>Source Files\CardSelectionDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CardSelectionDialog\CardSelectionScene.cpp">
+      <Filter>Source Files\CardSelectionDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CardSelectionDialog\DeckPreviewScene.cpp">
+      <Filter>Source Files\CardSelectionDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameScene\GameScene.cpp">
+      <Filter>Source Files\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainGame\MainGame.cpp">
+      <Filter>Source Files\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CardSelectionDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CardSelectionDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GamePanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainGame\CountDownTimer.cpp">
+      <Filter>Source Files\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CountDownTimer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CountDownTimer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainGame.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainGame\GamePanel.cpp">
+      <Filter>Source Files\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GamePanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainGame.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DeckScene.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DeckScene.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainGame\DeckScene.cpp">
+      <Filter>Source Files\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainGame\CreditBar.cpp">
+      <Filter>Source Files\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CreditBar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CreditBar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AbstractUnit.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AbstractUnit.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\Buildings\AbstractBuilding.cpp">
+      <Filter>Source Files\Assests\Entities\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\Units\AbstractUnit.cpp">
+      <Filter>Source Files\Assests\Entities\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\Units\UnitInfo.cpp">
+      <Filter>Source Files\Assests\Entities\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AbstractEntity.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AbstractEntity.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\AbstractEntity.cpp">
+      <Filter>Source Files\Assests\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\EntityInfo.cpp">
+      <Filter>Source Files\Assests\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\Buildings\BuildingInfo.cpp">
+      <Filter>Source Files\Assests\Entities\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AbstractCard.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AbstractCard.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Buildings\AbstractBuildingCard.cpp">
+      <Filter>Source Files\Assests\Cards\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Buildings\BuildingCardInfo.cpp">
+      <Filter>Source Files\Assests\Cards\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Commands\AbstractCommandCard.cpp">
+      <Filter>Source Files\Assests\Cards\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Commands\CommandCardInfo.cpp">
+      <Filter>Source Files\Assests\Cards\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Commands\DischargeCard.cpp">
+      <Filter>Source Files\Assests\Cards\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Commands\OverChargeCard.cpp">
+      <Filter>Source Files\Assests\Cards\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Units\AbstractUnitCard.cpp">
+      <Filter>Source Files\Assests\Cards\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Units\UnitCardInfo.cpp">
+      <Filter>Source Files\Assests\Cards\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Wild Cards\AbstractWildCard.cpp">
+      <Filter>Source Files\Assests\Cards\Wild Cards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Wild Cards\RecallCard.cpp">
+      <Filter>Source Files\Assests\Cards\Wild Cards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\AbstractCard.cpp">
+      <Filter>Source Files\Assests\Cards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Buildings\TeslaTowerCard.cpp">
+      <Filter>Source Files\Assests\Cards\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\CardInfo.cpp">
+      <Filter>Source Files\Assests\Cards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Wild Cards\WildCardInfo.cpp">
+      <Filter>Source Files\Assests\Cards\Wild Cards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Buildings\MissileFactoryCard.cpp">
+      <Filter>Source Files\Assests\Cards\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Units\FlameTankCard.cpp">
+      <Filter>Source Files\Assests\Cards\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Units\TacticalBomberCard.cpp">
+      <Filter>Source Files\Assests\Cards\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\Buildings\MissileFactory.cpp">
+      <Filter>Source Files\Assests\Entities\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\Buildings\TeslaTower.cpp">
+      <Filter>Source Files\Assests\Entities\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\Units\FlameTank.cpp">
+      <Filter>Source Files\Assests\Entities\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\Units\Technican.cpp">
+      <Filter>Source Files\Assests\Entities\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\Units\TacticalBomber.cpp">
+      <Filter>Source Files\Assests\Entities\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\Units\Infantry.cpp">
+      <Filter>Source Files\Assests\Entities\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\Units\Magnetank.cpp">
+      <Filter>Source Files\Assests\Entities\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\Units\Charger.cpp">
+      <Filter>Source Files\Assests\Entities\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\Units\Driller.cpp">
+      <Filter>Source Files\Assests\Entities\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\Units\Spinner.cpp">
+      <Filter>Source Files\Assests\Entities\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\Units\MobileFactory.cpp">
+      <Filter>Source Files\Assests\Entities\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\Units\MiniTank.cpp">
+      <Filter>Source Files\Assests\Entities\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\Units\MobileArtillery.cpp">
+      <Filter>Source Files\Assests\Entities\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\Units\Springer.cpp">
+      <Filter>Source Files\Assests\Entities\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Entities\Units\SmartMissile.cpp">
+      <Filter>Source Files\Assests\Entities\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Units\InfantryCard.cpp">
+      <Filter>Source Files\Assests\Cards\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Units\MagnetankCard.cpp">
+      <Filter>Source Files\Assests\Cards\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Units\ChargerCard.cpp">
+      <Filter>Source Files\Assests\Cards\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Units\DrillerCard.cpp">
+      <Filter>Source Files\Assests\Cards\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Units\SpinnerCard.cpp">
+      <Filter>Source Files\Assests\Cards\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Units\MobileFactoryCard.cpp">
+      <Filter>Source Files\Assests\Cards\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Units\MobileArtilleryCard.cpp">
+      <Filter>Source Files\Assests\Cards\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assests\Cards\Units\SpringerCard.cpp">
+      <Filter>Source Files\Assests\Cards\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ResourceManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Controller\ResourceManager.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ResourceManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_Resources.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Controller\CardFactory.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DeckPreviewScene.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DeckPreviewScene.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GameScene.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GameScene.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Assests\Entities\Buildings\AbstractBuilding.h">
+      <Filter>Header Files\Assests\Entities\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Entities\Units\UnitInfo.h">
+      <Filter>Header Files\Assests\Entities\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Entities\EntityInfo.h">
+      <Filter>Header Files\Assests\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Entities\Buildings\BuildingInfo.h">
+      <Filter>Header Files\Assests\Entities\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Buildings\AbstractBuildingCard.h">
+      <Filter>Header Files\Assests\Cards\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Buildings\BuildingCardInfo.h">
+      <Filter>Header Files\Assests\Cards\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Commands\AbstractCommandCard.h">
+      <Filter>Header Files\Assests\Cards\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Commands\CommandCardInfo.h">
+      <Filter>Header Files\Assests\Cards\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Commands\DischargeCard.h">
+      <Filter>Header Files\Assests\Cards\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Commands\OverChargeCard.h">
+      <Filter>Header Files\Assests\Cards\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Wild Cards\AbstractWildCard.h">
+      <Filter>Header Files\Assests\Cards\Wild Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Wild Cards\RecallCard.h">
+      <Filter>Header Files\Assests\Cards\Wild Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Units\AbstractUnitCard.h">
+      <Filter>Header Files\Assests\Cards\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Units\UnitCardInfo.h">
+      <Filter>Header Files\Assests\Cards\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Buildings\TeslaTowerCard.h">
+      <Filter>Header Files\Assests\Cards\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\CardInfo.h">
+      <Filter>Header Files\Assests\Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Wild Cards\WildCardInfo.h">
+      <Filter>Header Files\Assests\Cards\Wild Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Buildings\MissileFactoryCard.h">
+      <Filter>Header Files\Assests\Cards\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Units\FlameTankCard.h">
+      <Filter>Header Files\Assests\Cards\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Units\TacticalBomberCard.h">
+      <Filter>Header Files\Assests\Cards\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Entities\Buildings\MissileFactory.h">
+      <Filter>Header Files\Assests\Entities\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Entities\Buildings\TeslaTower.h">
+      <Filter>Header Files\Assests\Entities\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Entities\Units\FlameTank.h">
+      <Filter>Header Files\Assests\Entities\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Entities\Units\Technican.h">
+      <Filter>Header Files\Assests\Entities\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Entities\Units\TacticalBomber.h">
+      <Filter>Header Files\Assests\Entities\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Entities\Units\Infantry.h">
+      <Filter>Header Files\Assests\Entities\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Entities\Units\Magnetank.h">
+      <Filter>Header Files\Assests\Entities\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Entities\Units\Charger.h">
+      <Filter>Header Files\Assests\Entities\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Entities\Units\Driller.h">
+      <Filter>Header Files\Assests\Entities\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Entities\Units\Spinner.h">
+      <Filter>Header Files\Assests\Entities\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Entities\Units\MobileFactory.h">
+      <Filter>Header Files\Assests\Entities\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Entities\Units\MiniTank.h">
+      <Filter>Header Files\Assests\Entities\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Entities\Units\MobileArtillery.h">
+      <Filter>Header Files\Assests\Entities\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Entities\Units\Springer.h">
+      <Filter>Header Files\Assests\Entities\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Entities\Units\SmartMissile.h">
+      <Filter>Header Files\Assests\Entities\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Units\InfantryCard.h">
+      <Filter>Header Files\Assests\Cards\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Units\MagnetankCard.h">
+      <Filter>Header Files\Assests\Cards\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Units\ChargerCard.h">
+      <Filter>Header Files\Assests\Cards\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Units\DrillerCard.h">
+      <Filter>Header Files\Assests\Cards\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Units\SpinnerCard.h">
+      <Filter>Header Files\Assests\Cards\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Units\MobileFactoryCard.h">
+      <Filter>Header Files\Assests\Cards\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Units\MobileArtilleryCard.h">
+      <Filter>Header Files\Assests\Cards\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assests\Cards\Units\SpringerCard.h">
+      <Filter>Header Files\Assests\Cards\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\CardFactory.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Cards\Charger.png">
+      <Filter>Resource Files\Cards</Filter>
+    </Image>
+    <Image Include="Resources\Cards\Discharge.png">
+      <Filter>Resource Files\Cards</Filter>
+    </Image>
+    <Image Include="Resources\Cards\Driller.png">
+      <Filter>Resource Files\Cards</Filter>
+    </Image>
+    <Image Include="Resources\Cards\Flame Tank.png">
+      <Filter>Resource Files\Cards</Filter>
+    </Image>
+    <Image Include="Resources\Cards\Infantry.png">
+      <Filter>Resource Files\Cards</Filter>
+    </Image>
+    <Image Include="Resources\Cards\Magnetank.png">
+      <Filter>Resource Files\Cards</Filter>
+    </Image>
+    <Image Include="Resources\Cards\Missile Factory.png">
+      <Filter>Resource Files\Cards</Filter>
+    </Image>
+    <Image Include="Resources\Cards\Mobile Artillery.png">
+      <Filter>Resource Files\Cards</Filter>
+    </Image>
+    <Image Include="Resources\Cards\Mobile Factory.png">
+      <Filter>Resource Files\Cards</Filter>
+    </Image>
+    <Image Include="Resources\Cards\OverCharge.png">
+      <Filter>Resource Files\Cards</Filter>
+    </Image>
+    <Image Include="Resources\Cards\Recall.png">
+      <Filter>Resource Files\Cards</Filter>
+    </Image>
+    <Image Include="Resources\Cards\Spinner.png">
+      <Filter>Resource Files\Cards</Filter>
+    </Image>
+    <Image Include="Resources\Cards\Springer.png">
+      <Filter>Resource Files\Cards</Filter>
+    </Image>
+    <Image Include="Resources\Cards\Tactical Bomber.png">
+      <Filter>Resource Files\Cards</Filter>
+    </Image>
+    <Image Include="Resources\Cards\Tesla Tower.png">
+      <Filter>Resource Files\Cards</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
